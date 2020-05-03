@@ -1,26 +1,29 @@
 import * as Discord from "discord.js";
-import * as config from "./config.json";
+import Enmap from "enmap";
+import fs from "fs";
+import config from "./config.json";
 
 const client = new Discord.Client();
 
-client.on("ready", () => {
-    console.log("bot ready");
+fs.readdir("./src/events/", (err, files) => {
+    if (err) return console.error(err);
+    files.forEach((file) => {
+        const event = require(`../src/events/${file}`);
+        let eventName: any = file.split(".")[0];
+        client.on(eventName, event.default.bind(null, client));
+    });
 });
 
-client.on("message", (message) => {
-    if (message.content.startsWith(config.prefix + "test")) {
-        message.channel.send("test success");
-    }
+export const commands = new Enmap();
 
-    // Admin commands
-    if (message.author.id !== config.ownerID) {
-        // early return if any user but me tries to use command in the else.
-        return;
-    } else {
-        if (message.content.startsWith(config.prefix + "admin test")) {
-            message.channel.send("admin test success");
-        }
-    }
+fs.readdir("./src/commands/", (err, files) => {
+    if (err) return console.error(err);
+    files.forEach((file) => {
+        let props = require(`../src/commands/${file}`);
+        let commandName = file.split(".")[0];
+        console.log(`Attempting to load command '${commandName}'`);
+        commands.set(commandName, props);
+    });
 });
 
 client.login(config.token);
