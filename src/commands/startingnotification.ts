@@ -5,6 +5,8 @@ import config from "../config.json";
 
 let startingCheck: NodeJS.Timer;
 
+// TODO: set a timeout to delete the message after an hour?
+
 export const run = (
     client: Discord.Client,
     message: Discord.Message,
@@ -28,7 +30,7 @@ export const run = (
     //             (a, b) => Moment(a.start).valueOf() - Moment(b.start).valueOf()
     //         );
     //     // First event in the sorted list is the next event to happen.
-    //     const nextEvent = upcomingEvents[1];
+    //     const nextEvent = upcomingEvents[0];
 
     //     const whereToWatch = (): string => {
     //         const sites = nextEvent.where;

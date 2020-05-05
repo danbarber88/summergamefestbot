@@ -58,6 +58,23 @@
                 "name": "EA",
                 "logo": "https://i.imgur.com/FVJDNDn.png"
             }
+        },
+        {
+            "title": "Apex Legends Season 5 – Fortune's Favor Launch Trailer",
+            "description": "When Revenant killed Marcos Andrade all those years ago, he left a loose end. Now she’s all grown up.",
+            "image": "https://img.resized.co/dexerto/eyJkYXRhIjoie1widXJsXCI6XCJodHRwczpcXFwvXFxcL2ltYWdlcy5kZXhlcnRvLmNvbVxcXC91cGxvYWRzXFxcLzIwMjBcXFwvMDRcXFwvMzAxODE5MDRcXFwvZm9ydHVuZXMtZmF2b3ItYXBleC1sZWdlbmRzLXNlYXNvbi01LWxvYmEtYmF0dGxlLXBhc3Mtc2Vhc29uLXF1ZXN0cy13ZWFwb24tcmFua2VkLXNlcmllcy00LTMtcmV3YXJkcy5qcGdcIixcIndpZHRoXCI6NjIwLFwiaGVpZ2h0XCI6MzQ3LFwiZGVmYXVsdFwiOlwiaHR0cHM6XFxcL1xcXC9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbVxcXC9wcGx1cy5pbWFnZXMuZGV4ZXJ0by5jb21cXFwvdXBsb2Fkc1xcXC8yMDE5XFxcLzExXFxcLzExMjE0OTQzXFxcL3BsYWNlaG9sZGVyLmpwZ1wifSIsImhhc2giOiI3OTU5OGM1NGYzZmUyYTAxY2E1Yzg4M2NkNGQ3ZjliYzA1NDYzNTU5In0=/apex-legends-season-5-fortune-s-favor-revealed-loba-quests-battle-pass.jpg",
+            "url": "https://www.youtube.com/watch?v=lwp429eqER4&feature=youtu.be",
+            "start": "2020-05-05T17:00:00+00:00",
+            "where": [
+                {
+                    "name": "Youtube",
+                    "url": "https://www.youtube.com/watch?v=lwp429eqER4&feature=youtu.be"
+                }
+            ],
+            "partner": {
+                "name": "EA",
+                "logo": "https://pbs.twimg.com/profile_images/1255985245649686530/7sxvVPqt_400x400.jpg"
+            }
         }
     ]
 }
