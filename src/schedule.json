@@ -1,36 +1,62 @@
 {
     "events": [
         {
-            "title": "Assassin's Creed Gameplay Showcase",
-            "description": "Ubisoft, in partnership with Microsoft are proud to showcase gameplay from their upcoming title",
-            "image": "http://i.imgur.com/p2qNFag.png",
-            "url": "https://test.com",
-            "start": "2020-05-04T13:45:00+00:00",
+            "title": "Xbox 20/20: Join Us as We Look into the Future of Xbox",
+            "description": "Boot up Xbox 20/20 with a new episode of #InsideXbox this Thursday, May 7 @ 8am PT for a First Look at Xbox Series X gameplay from our global developer partners. ",
+            "image": "https://news.xbox.com/en-us/wp-content/uploads/sites/2/2020/05/Xbox2020Announce_HERO.jpg?w=1200",
+            "url": "https://news.xbox.com/en-us/2020/05/05/xbox-2020-the-future-of-xbox/?ocid=InsideXbox_soc_omc_xbo_tw_Video_lrn_5.5.1",
+            "start": "2020-05-07T15:00:00+00:00",
+            "where": [
+                {
+                    "name": "Twitch",
+                    "url": "https://www.twitch.com/xbox"
+                },
+                {
+                    "name": "Mixer",
+                    "url": "https://mixer.com/Xbox"
+                },
+                {
+                    "name": "Youtube",
+                    "url": "https://www.youtube.com/xbox"
+                }
+            ],
             "partner": {
-                "name": "Ubisoft",
-                "logo": "http://i.imgur.com/w1vhFSR.png"
-            }
-        },
-        {
-            "title": "Fable Announcement Trailer",
-            "description": "Microsfot takes the stage to reveal the latest adventure in the Fable franchise.",
-            "image": "https://www.windowscentral.com/sites/wpcentral.com/files/styles/mediumplus/public/field/image/2018/01/fable-legends-screenshot-1.jpg?itok=SSiFCpFy",
-            "url": "https://test.com",
-            "start": "2020-05-05T17:02:00+00:00",
-            "partner": {
-                "name": "Microsoft",
+                "name": "Xbox",
                 "logo": "https://i.imgur.com/Qkw6rTX.png"
             }
         },
         {
-            "title": "Cyberpunk 2077 Extended Gameplay Showcase",
-            "description": "Another short gameplay demo. Hype much!?",
-            "image": "http://i.imgur.com/p2qNFag.png",
-            "url": "https://test.com",
-            "start": "2020-05-08T13:45:00+00:00",
+            "title": "The Last of Us Part 2 new trailer premiere",
+            "description": "Five years after their dangerous journey across the post-pandemic United States, Ellie and Joel have settled down in Jackson, Wyoming. Living amongst a thriving community of survivors has allowed them peace and stability, despite the constant threat of the infected and other, more desperate survivors.",
+            "image": "https://news.otakukart.com/wp-content/uploads/2019/02/the-last-of-us-part-ii-1068x534.jpeg",
+            "url": "https://www.youtube.com/naughtydog",
+            "start": "2020-05-06T14:00:00+00:00",
+            "where": [
+                {
+                    "name": "Youtube",
+                    "url": "https://www.youtube.com/naughtydog"
+                }
+            ],
             "partner": {
-                "name": "CD Project Red",
-                "logo": "http://i.imgur.com/w1vhFSR.png"
+                "name": "Playstation",
+                "logo": "https://i.imgur.com/XAx0B5L.png"
+            }
+        },
+        {
+            "title": "EA Play Live goes digital in 2020!",
+            "description": "See you on June 11th at 4pm PST... World premieres, news and more!",
+            "image": "https://s31092.pcdn.co/wp-content/uploads/2020/05/EA-Play-Live-header-1320x743.jpg",
+            "url": "https://www.ea.com/eaplay",
+            "start": "2020-06-11T23:00:00+00:00",
+            "where": [
+                {
+                    "name": "Youtube",
+                    "url": "https://www.youtube.com/channel/UCIHBybdoneVVpaQK7xMz1ww"
+                }
+            ],
+            "partner": {
+                "name": "EA",
+                "logo": "https://i.imgur.com/FVJDNDn.png"
             }
         }
     ]
