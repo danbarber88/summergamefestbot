@@ -5,10 +5,10 @@ import config from "./config.json";
 
 const client = new Discord.Client();
 
-fs.readdir("./src/events/", (err, files) => {
+fs.readdir(`${__dirname}/events`, (err, files) => {
     if (err) return console.error(err);
     files.forEach((file) => {
-        const event = require(`../src/events/${file}`);
+        const event = require(`${__dirname}/events/${file}`);
         let eventName: any = file.split(".")[0];
         client.on(eventName, event.default.bind(null, client));
     });
@@ -16,10 +16,10 @@ fs.readdir("./src/events/", (err, files) => {
 
 export const commands = new Enmap();
 
-fs.readdir("./src/commands/", (err, files) => {
+fs.readdir(`${__dirname}/commands`, (err, files) => {
     if (err) return console.error(err);
     files.forEach((file) => {
-        let props = require(`../src/commands/${file}`);
+        let props = require(`${__dirname}/commands/${file}`);
         let commandName = file.split(".")[0];
         console.log(`Attempting to load command '${commandName}'`);
         commands.set(commandName, props);
