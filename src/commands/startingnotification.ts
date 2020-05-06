@@ -7,6 +7,18 @@ let startingCheck: NodeJS.Timer;
 
 // TODO: set a timeout to delete the message after an hour?
 
+const getNextEvent = () => {
+    // Filter out events before todays date and then sort them by their start date.
+    const upcomingEvents = schedule.events
+    .filter((event) => Moment(event.start) > Moment())
+    .sort(
+        (a, b) => Moment(a.start).valueOf() - Moment(b.start).valueOf()
+    );
+    // First event in the sorted list is the next event to happen.
+    const nextEvent = upcomingEvents[0];
+    return nextEvent;
+}
+
 export const run = (
     client: Discord.Client,
     message: Discord.Message,
@@ -63,15 +75,8 @@ export const run = (
     }
 
     if (args[0] === "on") {
-        // Filter out events before todays date and then sort them by their start date.
-        const upcomingEvents = schedule.events
-            .filter((event) => Moment(event.start) > Moment())
-            .sort(
-                (a, b) => Moment(a.start).valueOf() - Moment(b.start).valueOf()
-            );
-        // First event in the sorted list is the next event to happen.
-        const nextEvent = upcomingEvents[0];
-
+        let nextEvent = getNextEvent();
+        
         const whereToWatch = (): string => {
             const sites = nextEvent.where;
             let linkString = "";
@@ -115,6 +120,8 @@ export const run = (
                             }
                         }
                     }
+
+                    nextEvent = getNextEvent();
                 } else {
                     message.channel.send(
                         "Can't find next event right now. Try again later."
