@@ -5,7 +5,7 @@
             "description": "Boot up Xbox 20/20 with a new episode of #InsideXbox this Thursday, May 7 @ 8am PT for a First Look at Xbox Series X gameplay from our global developer partners. ",
             "image": "https://news.xbox.com/en-us/wp-content/uploads/sites/2/2020/05/Xbox2020Announce_HERO.jpg?w=1200",
             "url": "https://news.xbox.com/en-us/2020/05/05/xbox-2020-the-future-of-xbox/?ocid=InsideXbox_soc_omc_xbo_tw_Video_lrn_5.5.1",
-            "start": "2020-05-07T15:00:00+00:00",
+            "start": "2020-05-07T15:00+00:00",
             "where": [
                 {
                     "name": "Twitch",
