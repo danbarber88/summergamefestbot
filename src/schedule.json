@@ -1,52 +1,11 @@
 {
     "events": [
         {
-            "title": "Xbox 20/20: Join Us as We Look into the Future of Xbox",
-            "description": "Boot up Xbox 20/20 with a new episode of #InsideXbox this Thursday, May 7 @ 8am PT for a First Look at Xbox Series X gameplay from our global developer partners. ",
-            "image": "https://news.xbox.com/en-us/wp-content/uploads/sites/2/2020/05/Xbox2020Announce_HERO.jpg?w=1200",
-            "url": "https://news.xbox.com/en-us/2020/05/05/xbox-2020-the-future-of-xbox/?ocid=InsideXbox_soc_omc_xbo_tw_Video_lrn_5.5.1",
-            "start": "2020-05-07T15:00+00:00",
-            "where": [
-                {
-                    "name": "Twitch",
-                    "url": "https://www.twitch.com/xbox"
-                },
-                {
-                    "name": "Mixer",
-                    "url": "https://mixer.com/Xbox"
-                },
-                {
-                    "name": "Youtube",
-                    "url": "https://www.youtube.com/xbox"
-                }
-            ],
-            "partner": {
-                "name": "Xbox",
-                "logo": "https://i.imgur.com/Qkw6rTX.png"
-            }
-        },
-        {
-            "title": "The Last of Us Part 2 new trailer premiere",
-            "description": "Five years after their dangerous journey across the post-pandemic United States, Ellie and Joel have settled down in Jackson, Wyoming. Living amongst a thriving community of survivors has allowed them peace and stability, despite the constant threat of the infected and other, more desperate survivors.",
-            "image": "https://news.otakukart.com/wp-content/uploads/2019/02/the-last-of-us-part-ii-1068x534.jpeg",
-            "url": "https://www.youtube.com/naughtydog",
-            "start": "2020-05-06T14:00:00+00:00",
-            "where": [
-                {
-                    "name": "Youtube",
-                    "url": "https://www.youtube.com/naughtydog"
-                }
-            ],
-            "partner": {
-                "name": "Playstation",
-                "logo": "https://i.imgur.com/XAx0B5L.png"
-            }
-        },
-        {
             "title": "EA Play Live goes digital in 2020!",
             "description": "See you on June 11th at 4pm PST... World premieres, news and more!",
             "image": "https://s31092.pcdn.co/wp-content/uploads/2020/05/EA-Play-Live-header-1320x743.jpg",
             "url": "https://www.ea.com/eaplay",
+            "hasStartTime": true,
             "start": "2020-06-11T23:00:00+00:00",
             "where": [
                 {
@@ -57,23 +16,157 @@
             "partner": {
                 "name": "EA",
                 "logo": "https://i.imgur.com/FVJDNDn.png"
+            },
+            "reminders": {
+                "apple": "https://www.addevent.com/event/Ge4822462+apple",
+                "google": "https://www.addevent.com/event/Ge4822462+google",
+                "outlook": "https://www.addevent.com/event/Ge4822462+outlook"
             }
         },
         {
-            "title": "Apex Legends Season 5 – Fortune's Favor Launch Trailer",
-            "description": "When Revenant killed Marcos Andrade all those years ago, he left a loose end. Now she’s all grown up.",
-            "image": "https://img.resized.co/dexerto/eyJkYXRhIjoie1widXJsXCI6XCJodHRwczpcXFwvXFxcL2ltYWdlcy5kZXhlcnRvLmNvbVxcXC91cGxvYWRzXFxcLzIwMjBcXFwvMDRcXFwvMzAxODE5MDRcXFwvZm9ydHVuZXMtZmF2b3ItYXBleC1sZWdlbmRzLXNlYXNvbi01LWxvYmEtYmF0dGxlLXBhc3Mtc2Vhc29uLXF1ZXN0cy13ZWFwb24tcmFua2VkLXNlcmllcy00LTMtcmV3YXJkcy5qcGdcIixcIndpZHRoXCI6NjIwLFwiaGVpZ2h0XCI6MzQ3LFwiZGVmYXVsdFwiOlwiaHR0cHM6XFxcL1xcXC9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbVxcXC9wcGx1cy5pbWFnZXMuZGV4ZXJ0by5jb21cXFwvdXBsb2Fkc1xcXC8yMDE5XFxcLzExXFxcLzExMjE0OTQzXFxcL3BsYWNlaG9sZGVyLmpwZ1wifSIsImhhc2giOiI3OTU5OGM1NGYzZmUyYTAxY2E1Yzg4M2NkNGQ3ZjliYzA1NDYzNTU5In0=/apex-legends-season-5-fortune-s-favor-revealed-loba-quests-battle-pass.jpg",
-            "url": "https://www.youtube.com/watch?v=lwp429eqER4&feature=youtu.be",
-            "start": "2020-05-05T17:00:00+00:00",
+            "title": "Sunrise #1",
+            "description": "Join Geoff Keighley for a surprise game reveal.",
+            "image": "https://thegeek.games/wp-content/uploads/2020/05/thegeek-Summer-Game-Fest-Geoff-Keighley.jpg",
+            "url": "https://www.summergamefest.com/",
+            "hasStartTime": true,
+            "start": "2020-05-12T16:00:00+00:00",
             "where": [
                 {
-                    "name": "Youtube",
-                    "url": "https://www.youtube.com/watch?v=lwp429eqER4&feature=youtu.be"
+                    "name": "SGF Website",
+                    "url": "https://www.summergamefest.com/"
                 }
             ],
             "partner": {
-                "name": "EA",
+                "name": "unknown",
                 "logo": "https://pbs.twimg.com/profile_images/1255985245649686530/7sxvVPqt_400x400.jpg"
+            },
+            "reminders": {
+                "apple": "https://www.addevent.com/event/Ok4822458+apple",
+                "google": "https://www.addevent.com/event/Ok4822458+google",
+                "outlook": "https://www.addevent.com/event/Ok4822458+outlook"
+            }
+        },
+        {
+            "title": "SGF Special Event",
+            "description": "Tune in for a special Summer Game Fest showcase and interview with Geoff Keighley.",
+            "image": "https://thegeek.games/wp-content/uploads/2020/05/thegeek-Summer-Game-Fest-Geoff-Keighley.jpg",
+            "url": "https://www.summergamefest.com/",
+            "hasStartTime": true,
+            "start": "2020-05-13T15:00:00+00:00",
+            "where": [
+                {
+                    "name": "SGF Website",
+                    "url": "https://www.summergamefest.com/"
+                }
+            ],
+            "partner": {
+                "name": "unknown",
+                "logo": "https://pbs.twimg.com/profile_images/1255985245649686530/7sxvVPqt_400x400.jpg"
+            },
+            "reminders": {
+                "apple": "https://www.addevent.com/event/Aw4837016+apple",
+                "google": "https://www.addevent.com/event/Aw4837016+google",
+                "outlook": "https://www.addevent.com/event/Aw4837016+outlook"
+            }
+        },
+        {
+            "title": "Steam Game Festival: Summer Edition",
+            "description": "Play and wishlist upcoming PC games on Steam.",
+            "image": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/clans/4/84913e6ae1337ff209f3f2eb46b22f425662c1fc.jpg",
+            "url": "https://store.steampowered.com/",
+            "hasStartTime": false,
+            "start": "2020-06-09T12:00:00+00:00",
+            "where": [
+                {
+                    "name": "Steam",
+                    "url": "https://store.steampowered.com/"
+                }
+            ],
+            "partner": {
+                "name": "unknown",
+                "logo": "https://pbs.twimg.com/profile_images/1255985245649686530/7sxvVPqt_400x400.jpg"
+            },
+            "reminders": {
+                "apple": "https://www.addevent.com/event/qa4822460+apple",
+                "google": "https://www.addevent.com/event/qa4822460+google",
+                "outlook": "https://www.addevent.com/event/qa4822460+outlook"
+            }
+        },
+        {
+            "title": "CYBERPUNK 2077",
+            "description": "Tune in for a special broadcast on Cyberpunk 2077 from CD Projekt Red.",
+            "image": "https://pbs.twimg.com/media/EXQzIQlXsAAW2WQ?format=png&name=900x900",
+            "url": "https://www.summergamefest.com/",
+            "hasStartTime": false,
+            "start": "2020-06-11T12:00:00+00:00",
+            "where": [
+                {
+                    "name": "TBD",
+                    "url": "https://www.summergamefest.com/"
+                }
+            ],
+            "partner": {
+                "name": "unknown",
+                "logo": "https://pbs.twimg.com/profile_images/1255985245649686530/7sxvVPqt_400x400.jpg"
+            },
+            "reminders": {
+                "apple": "https://www.addevent.com/event/lA4825135+apple",
+                "google": "https://www.addevent.com/event/lA4825135+google",
+                "outlook": "https://www.addevent.com/event/lA4825135+outlook"
+            }
+        },
+        {
+            "title": "Tennocon 2020",
+            "description": "Digital Extremes updates Warframe players on what's next.",
+            "image": "http://n9e5v4d8.ssl.hwcdn.net/images/tennocon2020/TennoconLogo2.png",
+            "url": "https://www.summergamefest.com/",
+            "hasStartTime": false,
+            "start": "2020-07-11T12:00:00+00:00",
+            "where": [
+                {
+                    "name": "TBD",
+                    "url": "https://www.summergamefest.com/"
+                }
+            ],
+            "partner": {
+                "name": "unknown",
+                "logo": "https://pbs.twimg.com/profile_images/1255985245649686530/7sxvVPqt_400x400.jpg"
+            },
+            "reminders": {
+                "apple": "https://www.addevent.com/event/RJ4822546+apple",
+                "google": "https://www.addevent.com/event/RJ4822546+google",
+                "outlook": "https://www.addevent.com/event/RJ4822546+outlook"
+            }
+        },
+        {
+            "title": "gamescom: Opening Night Live",
+            "description": "Geoff Keighley teams up with gamescom to host the spectacular, industry-wide finale to SGF.",
+            "image": "http://images.pushsquare.com/a4b43217cc418/gamescom-onl-logo.original.jpg",
+            "url": "https://www.summergamefest.com/",
+            "hasStartTime": true,
+            "start": "2020-08-24T18:00:00+00:00",
+            "where": [
+                {
+                    "name": "Twitch",
+                    "url": "https://www.twitch.tv/gamescom"
+                },
+                {
+                    "name": "YouTube",
+                    "url": "https://www.youtube.com/channel/UClSJgYGL0BzL-0qv0Ae1M-g"
+                },
+                {
+                    "name": "Mixer",
+                    "url": "https://mixer.com/gamescom"
+                }
+            ],
+            "partner": {
+                "name": "unknown",
+                "logo": "https://pbs.twimg.com/profile_images/1255985245649686530/7sxvVPqt_400x400.jpg"
+            },
+            "reminders": {
+                "apple": "https://www.addevent.com/event/dy4822550+apple",
+                "google": "https://www.addevent.com/event/dy4822550+google",
+                "outlook": "https://www.addevent.com/event/dy4822550+outlook"
             }
         }
     ]
