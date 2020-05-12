@@ -8,8 +8,8 @@ export const run = async (
     message: Discord.Message,
     _args: String[]
 ) => {
-    const events = await getNextEvents(1);
-    const nextEvent = events[0];
+    const events = await getNextEvents();
+    const nextEvent = events.filter(event => event.hasStartTime)[0];
 
     const embed = new Discord.MessageEmbed()
         .setTitle(nextEvent.title)

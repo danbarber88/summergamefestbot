@@ -1,6 +1,6 @@
 import * as Discord from "discord.js";
 import Moment from "moment";
-import getNextEvent from "../helpers/getNextEvent";
+import getNextEvents from "../helpers/getNextEvents";
 import whereToWatch from "../helpers/whereToWatch";
 
 // TODO: set a timeout to delete the message after an hour?
@@ -8,7 +8,8 @@ import whereToWatch from "../helpers/whereToWatch";
 export default async (client: Discord.Client) => {
     const fiveMinsInMs = 1000 * 60 * 5;
 
-    const nextEvent = await getNextEvent();
+    const events = await getNextEvents();
+    const nextEvent = events.filter(event => event.hasStartTime)[0];
 
     // Check if an event is starting every five minutes.
     setInterval(() => {

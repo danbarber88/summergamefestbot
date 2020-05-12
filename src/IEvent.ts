@@ -19,6 +19,7 @@ export interface IEvent {
     description: string;
     image: string;
     url: string;
+    hasStartTime: boolean;
     start: string;
     where: IWhere[];
     partner: IPartner
