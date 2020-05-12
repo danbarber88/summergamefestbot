@@ -3,7 +3,7 @@ import path from "path";
 import { promises as fs } from "fs";
 import { IEvent } from "../IEvent";
 
-export default async () => {
+export default async (): Promise<IEvent[]> => {
     const data = await fs.readFile(
         path.join(__dirname, "../schedule.json"),
         "utf-8"
@@ -18,6 +18,6 @@ export default async () => {
             (a: IEvent, b: IEvent) =>
                 Moment(a.start).valueOf() - Moment(b.start).valueOf()
         );
-    // First event in the sorted list is the next event to happen.
-    return upcomingEvents[0];
+    // Gets as many events as the argument asks for.
+    return upcomingEvents;
 };
