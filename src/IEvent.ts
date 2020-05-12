@@ -8,6 +8,12 @@ interface IWhere {
     url: string;
 }
 
+interface IReminder {
+    apple: string,
+    google: string,
+    outlook: string
+}
+
 export interface IEvent {
     title: string;
     description: string;
@@ -16,4 +22,5 @@ export interface IEvent {
     start: string;
     where: IWhere[];
     partner: IPartner
+    reminders?: IReminder
 }
