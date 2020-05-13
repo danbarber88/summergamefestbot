@@ -1,25 +1,21 @@
 import * as Discord from "discord.js";
 import Moment from "moment";
+import schedule from "node-schedule"
 import getNextEvents from "../helpers/getNextEvents";
 import whereToWatch from "../helpers/whereToWatch";
 
-// TODO: set a timeout to delete the message after an hour?
-
 export default (client: Discord.Client) => {
-    const fiveMinsInMs = 1000 * 60 * 5;
-
-    // Check if an event is starting every five minutes.
-    setInterval(async () => {
+    schedule.scheduleJob('*/10 * * * *', async () => {
         const events = await getNextEvents();
         const nextEvent = events.filter(event => event.hasStartTime)[0];
 
-        console.log(`Checking for ${nextEvent.title} start`);
+        console.log(`${Moment().format('HH:mm:ss')}: Checking for ${nextEvent.title} start`);
 
         // if five minutes from now is after the events start time.
-        if (Moment().add(5, "minutes") > Moment(nextEvent.start)) {
+        if (Moment().add(10, "minutes") >= Moment(nextEvent.start)) {
             const embed = new Discord.MessageEmbed()
                 .setTitle(
-                    `An event is scheduled to begin in less than 5 minutes.`
+                    `An event is scheduled to begin in 10 minutes.`
                 )
                 .setDescription("Look below to find out where you can watch.")
                 .setThumbnail(nextEvent.partner.logo)
@@ -43,5 +39,5 @@ export default (client: Discord.Client) => {
                 }
             }
         }
-    }, fiveMinsInMs);
+    })
 };
