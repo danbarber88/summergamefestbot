@@ -1,6 +1,6 @@
 import * as Discord from "discord.js";
 import * as config from "../config.json";
-import { commands } from "../index";
+import { commands } from "../bot";
 
 export default (client: Discord.Client, message: Discord.Message) => {
     // Ignore all bots

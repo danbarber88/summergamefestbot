@@ -10,7 +10,7 @@ export default async (): Promise<IEvent[]> => {
     );
 
     const schedule = JSON.parse(data);
-
+    
     // Filter out events before todays date and then sort them by their start date.
     const upcomingEvents = schedule.events
         .filter((event: IEvent) => Moment(event.start) > Moment())
@@ -18,6 +18,6 @@ export default async (): Promise<IEvent[]> => {
             (a: IEvent, b: IEvent) =>
                 Moment(a.start).valueOf() - Moment(b.start).valueOf()
         );
-    // Gets as many events as the argument asks for.
+
     return upcomingEvents;
 };
